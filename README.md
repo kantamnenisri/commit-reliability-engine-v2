@@ -10,6 +10,8 @@ An open-source reliability engine that detects high-risk code commits and trigge
 
 `commit-reliability-engine-v2` acts as an intelligent sentinel between your CI/CD pipeline and production. By analyzing GitHub commits in real-time, it identifies high-risk code changes before they reach your servers. If a critical risk is detected, the engine automatically triggers a failover to stable cloud environments, ensuring zero-downtime.
 
+📖 **Read the Full Article:** [How I Built a Commit-Aware Multi-Cloud Reliability Engine and What Two Patents Taught Me](https://medium.com/@kantamnenisri/how-i-built-a-commit-aware-multi-cloud-reliability-engine-and-what-two-patents-taught-me-e595dee315e4)
+
 ## 🧠 How It Works
 
 1. **Listen**: Receives real-time push events from GitHub webhooks.
