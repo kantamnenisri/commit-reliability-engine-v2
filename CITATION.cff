@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Kantamneni"
+  given-names: "Venkata Srinivas"
+title: "commit-reliability-engine-v2"
+version: 1.0.0
+date-released: 2026-04-02
+url: "https://github.com/kantamnenisri/commit-reliability-engine-v2"
+abstract: >-
+  An open-source reliability engine that detects high-risk code commits and 
+  triggers proactive multi-cloud failover (AWS, Azure, GCP). This project 
+  is a technical implementation of the architectural concepts and reliability 
+  methodologies detailed in USPTO Patent Applications 19/344,864 and 19/325,718 
+  by Venkata Srinivas Kantamneni.
+keywords:
+  - reliability-engineering
+  - multi-cloud
+  - proactive-failover
+  - commit-analysis
+  - predictive-failure
+  - aws
+  - azure
+  - gcp
+  - fastapi
+  - python

@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+boto3
+azure-mgmt-monitor
+azure-identity
+azure-mgmt-resource
+google-cloud-monitoring
+scikit-learn
+httpx
+pydantic

@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      - ENV=development
+    command: uvicorn api.main:app --host 0.0.0.1 --port 8000 --reload
+
+  # Future services for ML and probes can be added here
